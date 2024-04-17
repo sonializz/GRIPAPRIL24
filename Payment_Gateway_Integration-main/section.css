@@ -1,0 +1,82 @@
+.section{
+    position: relative;
+    top: 78px;
+
+}
+.background{
+    width: 1256.6px;
+    height: 542.3px;
+    background-position: 100%;
+    overflow: hidden;
+}
+.project{
+    font-size: 20px;
+    position: fixed;
+    top: 100px;
+    bottom: 46px;
+    left: 100px;
+    border-radius: 20px;
+}
+.mission , .payment{
+    width: 430px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.906);
+    color: white;
+    opacity: 0.85;
+    position:fixed;
+    top: 150px;
+    bottom: 150px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.mission{
+    left: 155px;
+}
+.payment{
+    right: 155px;
+}
+.heading{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 25px 5px 10px 18px;
+    color: white;
+    /* color: rgb(255, 238, 0); */
+    font-weight: 700;
+    opacity: 1;
+}
+.content{
+    color: white;
+    font-size: 20px;
+    /* font-weight: 500; */
+    line-height: 26px;
+    padding: 10px 20px 20px 15px;
+    opacity: 1;
+}
+.donate{
+    padding: 15px 0px 0px 40px;
+}
+.donatenow{
+    margin: 0px 0px 0px 120px;
+}
+.qutos{
+    font-weight: 600;
+}
+.know-more-container{
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    align-items: center;
+    margin:0px 0px 0px 120px;
+    transition: opacity 0.15s;
+}
+.know-more-container:hover{
+    color: black;
+    background-color:#ffaa2b;
+}
+.know-more-container:active{
+    opacity: 0.8;
+}
+

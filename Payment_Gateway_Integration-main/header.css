@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 84px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    border-bottom: solid 3px black;
+
+}
+.left{
+    height: 63px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right{
+    height: 63px;
+    width: 310px;
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+}
+.icon{
+    height: 70px;
+    width: 63px;
+}
+.title{
+    margin-left: 10px;
+    
+}
+.name{
+    font-size: 30px;
+    color: #d38207;
+    font-weight: bold;
+}
+.quto{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    margin-left: 22px;
+    /* font-weight: 500; */
+}
+.button{
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(229, 168, 87);
+    transition: opacity 0.15s;
+}
+.button:hover{
+    background-color:#d59028e2; 
+    color: white;
+}
+.button:active{
+    opacity: 0.8;
+}
+
+
