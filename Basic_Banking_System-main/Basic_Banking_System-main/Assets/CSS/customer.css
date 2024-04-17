@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(25, 25, 117)
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: white!important;
+}
+
+.navbar-brand{
+    font-family: 'Forte', cursive;
+    font-size: 2.0rem;
+    color: whi!important;
+}
+
+.nav-link{
+    color: black!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:rgba(110, 103, 214, 0.584);
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(203, 13, 13)!important;
+    color: whitesmoke!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(225, 174, 9)!important;
+    color: black !important;
+}
+
+
+
+
+/* Customized background colors for the table and its sections */
+.table thead tr.table-danger th {
+    background-color: rgba(0, 0, 0, 0.895); /* Background color for the table header (sl. No., Name, E-mail, Bank Balance) */
+    color: white; /* Text color for the table header */
+}
+
+.custom-table th {
+    background-color: rgb(233, 210, 229);
+}
+.custom-table tr:nth-child(even) td {
+    background-color: whitesmoke;
+}
+.custom-table tr:nth-child(odd) td {
+    background-color: rgba(128, 128, 128, 0.674);
+}
